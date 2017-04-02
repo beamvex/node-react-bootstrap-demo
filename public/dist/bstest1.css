@@ -4,6 +4,10 @@ body {
   padding-top: 18px;
   padding-bottom: 20px;
 } 
+}
+
+img.rf-logo {
+	margin-top: -12px;
 };/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.

@@ -10,7 +10,7 @@ var AppNavBar = React.createClass({
 <Navbar inverse collapseOnSelect fixedTop fluid>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="#">Nodemazon</a>
+        <a href="#"><img className="rf-logo" src="images/roberto-forster-logo.png"/></a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>

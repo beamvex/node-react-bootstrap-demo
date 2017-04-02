@@ -65,7 +65,7 @@ modelMaster.set({ prop1: 0 });var AppContainer = React.createClass({
           React.createElement(
             "a",
             { href: "#" },
-            "Nodemazon"
+            React.createElement("img", { className: "rf-logo", src: "images/roberto-forster-logo.png" })
           )
         ),
         React.createElement(Navbar.Toggle, null)
