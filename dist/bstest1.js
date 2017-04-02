@@ -23,7 +23,7 @@ modelMaster.set({prop1: 0})
       <hr/>
 
       <footer>
-        <p>&copy; 2017 Luggy Boy and Company, Inc.</p>
+        <p>&copy; 2017 Beamvex.co.uk</p>
       </footer>
         </div>);
     }
@@ -47,7 +47,7 @@ modelMaster.set({prop1: 0})
       <Nav>
         <AppNavLinks/>
         <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-          <MenuItem eventKey={3.1} onClick={this.handleClick}>Action luggy</MenuItem>
+          <MenuItem eventKey={3.1} onClick={this.handleClick}>Action</MenuItem>
           <MenuItem eventKey={3.2}>Another action</MenuItem>
           <MenuItem eventKey={3.3}>Something else here</MenuItem>
           <MenuItem divider />
@@ -121,8 +121,8 @@ modelMaster.set({prop1: 0})
         	      <div className="container-fluid"> 	
       
        
-        <h1>Watcha gain tiplex {this.props.prop1}</h1>
-        <p>This is a template for a simple marketing or informational website. luggy boy rules It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <h1>Welcome to the Demo{this.props.prop1}</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a className="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
         </div>

@@ -13,7 +13,7 @@ var AppContainer = React.createClass({
       <hr/>
 
       <footer>
-        <p>&copy; 2017 Luggy Boy and Company, Inc.</p>
+        <p>&copy; 2017 Beamvex.co.uk</p>
       </footer>
         </div>);
     }

@@ -45009,7 +45009,7 @@ modelMaster.set({ prop1: 0 });var AppContainer = React.createClass({
         React.createElement(
           "p",
           null,
-          "\xA9 2017 Luggy Boy and Company, Inc."
+          "\xA9 2017 Beamvex.co.uk"
         )
       )
     );
@@ -45053,7 +45053,7 @@ modelMaster.set({ prop1: 0 });var AppContainer = React.createClass({
             React.createElement(
               MenuItem,
               { eventKey: 3.1, onClick: this.handleClick },
-              "Action luggy"
+              "Action"
             ),
             React.createElement(
               MenuItem,
@@ -45166,13 +45166,13 @@ var AppNavLinks = function (_React$Component) {
         React.createElement(
           "h1",
           null,
-          "Watcha gain tiplex ",
+          "Welcome to the Demo",
           this.props.prop1
         ),
         React.createElement(
           "p",
           null,
-          "This is a template for a simple marketing or informational website. luggy boy rules It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique."
+          "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique."
         ),
         React.createElement(
           "p",
