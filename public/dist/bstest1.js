@@ -45046,7 +45046,6 @@ modelMaster.set({ prop1: 0 });var AppContainer = React.createClass({
         React.createElement(
           Nav,
           null,
-          React.createElement(AppNavLinks, null),
           React.createElement(
             NavDropdown,
             { eventKey: 3, title: "Dropdown", id: "basic-nav-dropdown" },
@@ -45131,7 +45130,7 @@ var AppNavLinks = function (_React$Component) {
       for (var i = 0; i < this.state.links.length; i++) {
         itms.push(React.createElement(
           NavItem,
-          { href: this.state.links[i].url },
+          { eventKey: i, href: this.state.links[i].url },
           this.state.links[i].label
         ));
       }
@@ -45156,9 +45155,9 @@ var AppNavLinks = function (_React$Component) {
       "div",
       { className: "jumbotron" },
       React.createElement(
-        Panel,
-        { bsStyle: "info" },
-        "Panel content"
+        Navbar,
+        { fluid: true },
+        React.createElement(AppNavLinks, null)
       ),
       React.createElement(
         "div",

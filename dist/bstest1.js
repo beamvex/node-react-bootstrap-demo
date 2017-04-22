@@ -45,7 +45,6 @@ modelMaster.set({prop1: 0})
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav>
-        <AppNavLinks/>
         <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
           <MenuItem eventKey={3.1} onClick={this.handleClick}>Action</MenuItem>
           <MenuItem eventKey={3.2}>Another action</MenuItem>
@@ -97,7 +96,7 @@ modelMaster.set({prop1: 0})
 		  var itms = [];
 
   for (var i = 0; i < this.state.links.length; i++) {
-        itms.push(<NavItem href={this.state.links[i].url}>{this.state.links[i].label}</NavItem>);
+        itms.push(<NavItem eventKey={i} href={this.state.links[i].url}>{this.state.links[i].label}</NavItem>);
       }
 
   return (<Nav>{[itms]}</Nav>);
@@ -111,12 +110,16 @@ modelMaster.set({prop1: 0})
         return (
         		
         		<div className="jumbotron">
-        		 	
-        		
-        		
-        		<Panel bsStyle="info">
-        	      Panel content
-        	    </Panel>
+      
+        		<Navbar fluid>
+        	    
+        	      
+        	    
+        	    
+        	    <AppNavLinks/>
+        	      
+        	    
+        	  </Navbar>
         	      
         	      <div className="container-fluid"> 	
       

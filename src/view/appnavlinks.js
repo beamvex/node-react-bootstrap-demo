@@ -30,7 +30,7 @@ class AppNavLinks extends React.Component {
 		  var itms = [];
 
   for (var i = 0; i < this.state.links.length; i++) {
-        itms.push(<NavItem href={this.state.links[i].url}>{this.state.links[i].label}</NavItem>);
+        itms.push(<NavItem eventKey={i} href={this.state.links[i].url}>{this.state.links[i].label}</NavItem>);
       }
 
   return (<Nav>{[itms]}</Nav>);

@@ -5,12 +5,16 @@ var Jumbotron = React.createClass({
         return (
         		
         		<div className="jumbotron">
-        		 	
-        		
-        		
-        		<Panel bsStyle="info">
-        	      Panel content
-        	    </Panel>
+      
+        		<Navbar fluid>
+        	    
+        	      
+        	    
+        	    
+        	    <AppNavLinks/>
+        	      
+        	    
+        	  </Navbar>
         	      
         	      <div className="container-fluid"> 	
       
